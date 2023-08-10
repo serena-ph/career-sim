@@ -17,6 +17,7 @@ nav{
     align-items: center;
     height: 70px;
     width: 100%;
+    position: fixed;
 }
 
 div > h2{
