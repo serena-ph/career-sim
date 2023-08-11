@@ -13,18 +13,35 @@ body{
 nav{
     background-color: skyblue;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+    position: sticky;
     height: 70px;
-    width: 100%;
-}
-
-div > h2{
-    margin-left: 10px;
-    color: brown;
+    width: 86%;
+    margin-top: 0;
+    margin-left:7%
 }
 
 .navb{
+    margin-right: 0%;
+    text-align: end;
+
+}
+.statement{
+    padding-top: 80px;
+}
+
+ h2{
+    color: brown;
+    margin-left: 5px;
+
+}
+   h1{
+    margin-left: 10px;
+   }
+    
+
+a{
     display: inline-block;
     justify-content: space-around;
     margin-right: 10px;
@@ -69,10 +86,6 @@ section > h3{
     margin: 10px;
 }
 
-.hobbies{
-   
-}
-
 .content{
     color: blue;
     display: flex;
@@ -101,3 +114,62 @@ section > h3{
 .project > p{
     padding: 10px;
 }
+
+
+.things{
+    padding-top: 80px;
+}
+.about{padding-top: 80px;
+
+}
+
+img{
+    margin: 10px;
+}
+
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    color: green;
+}
+
+
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+} 
+
+input{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcyan;
+  
+}
+
+form{
+    font-size: 30px;
+    color: lightcoral;
+    border-color: black;
+}
+
+
+
+input[type=submit]{
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: aquamarine;
+    opacity: 0.5;
+   
+
+}
+
+input[type=submit]:hover {
+    background-color: yellow;
+    opacity: 1;
+  }
