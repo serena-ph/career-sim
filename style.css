@@ -70,10 +70,6 @@ section > h3{
     margin: 10px;
 }
 
-.hobbies{
-   
-}
-
 .content{
     color: blue;
     display: flex;
@@ -104,3 +100,5 @@ section > h3{
 }
 .about,pro{
     padding-top: 80px;
+}
+    
